@@ -13,7 +13,7 @@ export const StyledCarousel = styled.div`
     #news-box {
         width: 45%;
         margin: auto;
-        background-color: #e7e7e7;
+        background-color: white;
         padding: 15px;
         border-radius: 10px;
     }
@@ -25,6 +25,8 @@ export const StyledCarousel = styled.div`
     #news-box > h3 {
         text-align: center;
         width: 100%;
+        border-bottom: 1px solid #000;
+        font-weight: bold;
     }
 
     #news-box > p > span {

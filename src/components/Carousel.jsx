@@ -32,11 +32,11 @@ function Carousel() {
         </div>
         <div id='news-box'>
             <h3>Check out the Lastest Games!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum? Lorem ipsum dolor sit amet. <span><a href="#">Click for Details</a></span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum? Lorem ipsum dolor sit amet. <span><a href="#!">Click for Details</a></span></p>
             
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum? Lorem ipsum dolor sit amet. <span><a href="#">Click for Details</a></span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum? Lorem ipsum dolor sit amet. <span><a href="#!">Click for Details</a></span></p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum? Lorem ipsum dolor sit amet. <span><a href="#">Click for Details</a></span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsum? Lorem ipsum dolor sit amet. <span><a href="#!">Click for Details</a></span></p>
         </div>
     </StyledCarousel>
   )

@@ -5,9 +5,9 @@ import chess from '../assets/chess-solid.svg';
 
 function Nav() {
   return (
-    <div>
+    <>
         <StyledNav>
-            <nav className="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
                         <div className='ms-5'>
@@ -30,7 +30,7 @@ function Nav() {
                 </div>
             </nav>
         </StyledNav>
-    </div>
+    </>
   )
 }
 
