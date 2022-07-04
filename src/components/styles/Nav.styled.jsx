@@ -8,7 +8,7 @@ export const StyledNav = styled.nav`
         background-color: rgb(36, 61, 131);
     }
 
-    img {
+    .chessImg {
         width: 25px;
         margin: 2px;
     }
@@ -19,17 +19,24 @@ export const StyledNav = styled.nav`
     }
 
     ul {
-        width: 20%;
+        width: 10%;
     }
 
-    a {
+    .navbar-links {
         color: #000;
         width: 100px;
         height: 50px;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding: 12px;
     }
-    a:hover {
+    .navbar-links:hover {
         background-color: #fff;
+    }
+
+    .navbar-links {
+        width: 100%;
+        height: 100%;
     }
 `

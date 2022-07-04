@@ -1,6 +1,6 @@
 import { StyledGamesList } from './styles/GamesList.styled';
-import React from 'react';
 import Card from './Card';
+import { useState, React } from 'react';
 
 const fakeGame = [
   {
@@ -3802,15 +3802,21 @@ const fakeGame = [
 ]
 
 export default function GamesList() {
+  const [loadCounter, setLoadCounter] = useState(10);
+  
   return (
     <StyledGamesList>
         <h1>Popular Games</h1>
         <div id='card-box'>
             {fakeGame.map((game, index) => {
-              return <Card game={game} key={index} />
+              if (index < loadCounter) {
+                return <Card game={game} key={index} />
+              }
+              
             })}
 
         </div>
+        <button type="button" className="btn btn-secondary btn-sm mb-3" onClick={() => setLoadCounter(loadCounter + 10)}>Show More Games</button>
     </StyledGamesList>
   )
 }
